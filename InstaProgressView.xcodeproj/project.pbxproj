@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		262EA1ED2565D4BD00F16CC9 /* InstaProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 262EA1EB2565D4BD00F16CC9 /* InstaProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262EA1F52565D4E700F16CC9 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262EA1F42565D4E700F16CC9 /* Int+Extension.swift */; };
+		262EA1F82565D51100F16CC9 /* InstaProgressViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262EA1F72565D51100F16CC9 /* InstaProgressViewDelegate.swift */; };
+		262EA1FB2565D53900F16CC9 /* InstaProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262EA1FA2565D53900F16CC9 /* InstaProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		262EA1E82565D4BD00F16CC9 /* InstaProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstaProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		262EA1EB2565D4BD00F16CC9 /* InstaProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaProgressView.h; sourceTree = "<group>"; };
 		262EA1EC2565D4BD00F16CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262EA1F42565D4E700F16CC9 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		262EA1F72565D51100F16CC9 /* InstaProgressViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaProgressViewDelegate.swift; sourceTree = "<group>"; };
+		262EA1FA2565D53900F16CC9 /* InstaProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,9 @@
 			children = (
 				262EA1EB2565D4BD00F16CC9 /* InstaProgressView.h */,
 				262EA1EC2565D4BD00F16CC9 /* Info.plist */,
+				262EA1F42565D4E700F16CC9 /* Int+Extension.swift */,
+				262EA1F72565D51100F16CC9 /* InstaProgressViewDelegate.swift */,
+				262EA1FA2565D53900F16CC9 /* InstaProgressView.swift */,
 			);
 			path = InstaProgressView;
 			sourceTree = "<group>";
@@ -94,6 +103,7 @@
 				TargetAttributes = {
 					262EA1E72565D4BD00F16CC9 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -130,6 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262EA1FB2565D53900F16CC9 /* InstaProgressView.swift in Sources */,
+				262EA1F82565D51100F16CC9 /* InstaProgressViewDelegate.swift in Sources */,
+				262EA1F52565D4E700F16CC9 /* Int+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		262EA1F12565D4BD00F16CC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9875BH6JL2;
@@ -269,6 +283,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = InstaProgressView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -277,6 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Eduard-Siniakov.InstaProgressView";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +301,7 @@
 		262EA1F22565D4BD00F16CC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9875BH6JL2;
@@ -293,6 +310,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = InstaProgressView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
