@@ -18,7 +18,7 @@ public class InstaProgressView: UIStackView {
         currentAnimationIndex < arrangedSubviews.count
     }
 
-    init(progressTintColor: UIColor, trackTintColor: UIColor, segmentsCount: Int, spaceBetweenSegments: CGFloat, duration: TimeInterval) {
+   public init(progressTintColor: UIColor, trackTintColor: UIColor, segmentsCount: Int, spaceBetweenSegments: CGFloat, duration: TimeInterval) {
         super.init(frame: CGRect.zero)
         self.duration = duration
         axis = NSLayoutConstraint.Axis.horizontal
