@@ -20,6 +20,7 @@
 		262EA1F42565D4E700F16CC9 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		262EA1F72565D51100F16CC9 /* InstaProgressViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaProgressViewDelegate.swift; sourceTree = "<group>"; };
 		262EA1FA2565D53900F16CC9 /* InstaProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaProgressView.swift; sourceTree = "<group>"; };
+		266D15AC2566E39A00F8E1E9 /* InstaProgressViewPackage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = InstaProgressViewPackage; path = ../InstaProgressViewPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,7 @@
 		262EA1DE2565D4BD00F16CC9 = {
 			isa = PBXGroup;
 			children = (
+				266D15AC2566E39A00F8E1E9 /* InstaProgressViewPackage */,
 				262EA1EA2565D4BD00F16CC9 /* InstaProgressView */,
 				262EA1E92565D4BD00F16CC9 /* Products */,
 			);
