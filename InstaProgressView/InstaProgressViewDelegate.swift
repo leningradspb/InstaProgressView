@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol InstaProgressViewDelegate: class {
+public protocol InstaProgressViewDelegate: class {
     func instaProgressViewChangedIndex(index: Int)
     func instaProgressViewFinished()
 }

@@ -12,7 +12,7 @@ public class InstaProgressView: UIStackView {
     private var animator = UIViewPropertyAnimator()
     private var duration: TimeInterval!
     
-    weak var delegate: InstaProgressViewDelegate?
+    public weak var delegate: InstaProgressViewDelegate?
 
     private var isValid: Bool {
         currentAnimationIndex < arrangedSubviews.count
