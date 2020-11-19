@@ -1,10 +1,18 @@
 # InstaProgressView
 It's awesome and useful control looks like Snapchat, Instagram or other apps that have progress views (loading white strips).
 
+Down below you can read details about implementation and see screenshot of example project🧐
+
 ![Image of animation](https://scontent.fhel3-1.fna.fbcdn.net/v/t1.0-9/126138214_3612263292163676_4787320952628979909_o.jpg?_nc_cat=109&ccb=2&_nc_sid=730e14&_nc_ohc=wiAmBuKIzq8AX_dgrv5&_nc_ht=scontent.fhel3-1.fna&oh=4ad2ad2a196d57d8130b185736f71915&oe=5FDA0F5B)
 
 
 ## How to use this cool boy? Pretty simple! 🥳
+First of all add new pod in your podfile. Dont't forget do pod install or pod update 😏
+```swift
+pod 'InstaProgressView'
+```
+
+And then just import framework in controller.
 ```swift
 import InstaProgressView
 ```
