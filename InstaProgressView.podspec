@@ -16,9 +16,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "InstaProgressView"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of InstaProgressView."
-  spec.description  = "A short description of InstaProgressView"
+  spec.description  = "With InstaProgressView you can do awesome progress views like in Snapchat or Instagram. Just try it."
   spec.homepage     = "https://github.com/leningradspb/InstaProgressView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -45,7 +45,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/leningradspb/InstaProgressView.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/leningradspb/InstaProgressView.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
